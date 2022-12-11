@@ -1,3 +1,6 @@
+/*          Desenvolvedor Erasmo Cardoso
+                        Instalador automatico do PAMAC no arch linuc ou manjaro
+*/
 #include <iostream>
 #include <string.h>
 #include <cstdlib>
@@ -38,9 +41,7 @@ void pamac(){
     std::string pamac = "yay -S pamac-aur";
     system(pamac.c_str());
 }
-
-
-
+// Programa
 int main(){
     menu();
     yayinst();
