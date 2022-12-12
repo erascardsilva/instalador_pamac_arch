@@ -31,7 +31,6 @@ void fim(){
 void limpa(){ system("clear");}
 
 void yayinst(){
-    //std::string path = "cd yay";
     std::string yay = "cd  ~/yay  && makepkg -si";
     system("sudo pacman -S git");
     system("git clone https://aur.archlinux.org/yay.git");
